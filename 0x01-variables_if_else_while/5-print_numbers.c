@@ -12,7 +12,6 @@ x = 0;
 while (x < 10)
 {
 printf("%d", x);
-if (x < 9)
 x++;
 }
 printf("\n");
