@@ -6,13 +6,13 @@
 */
 int main(void)
 {
-char low,q,e;
+char low, q, e;
 
 q = 'q';
 e = 'e';
 for (low = 'a'; low <= 'z'; low++)
 {
-if(low != e && low != q)
+if (low != e && low != q)
 putchar(low);
 }
 putchar('\n');
