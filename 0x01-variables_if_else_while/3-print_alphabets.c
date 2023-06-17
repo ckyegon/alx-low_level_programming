@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
-*
 * main - Entry point
 *
 * Return: Always 0 (Success)
@@ -23,7 +22,6 @@ int main(void)
 		putchar(d);
 		d++;	
 		}
-	putchar('\n');
-			 
+	putchar('\n');	 
 	return 0;
 }
