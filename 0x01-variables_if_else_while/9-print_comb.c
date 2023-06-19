@@ -17,7 +17,10 @@ int main(void)
 		{
 		putchar(',');
 		}
+		if (j <= '9')
+		{
 		putchar(' ');
+		}
 
 	}
 	putchar('\n');
