@@ -5,12 +5,9 @@
 */
 void _puts(char *str)
 {
-	char c = 'I'; 
-	*str = c;
-
 	while (*str != '\0')
 	{
-	_putchar(*str++);
+		_putchar(*str++);
 	}
-	_putchar('\n');
+		_putchar('\n');
 }
