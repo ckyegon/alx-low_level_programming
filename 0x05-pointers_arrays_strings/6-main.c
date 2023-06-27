@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * main - check the code
 *
@@ -8,7 +9,7 @@ int main(void)
 {
 	char *str;
 
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	print_rev(str);
+	str = "0123456789";
+	puts2(str);
 	return (0);
 }
