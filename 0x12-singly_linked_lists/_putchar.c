@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
- * _putchar - checks for character c 
- * @c - This is the character to be checked
- * Return - 1 if c is true else -1
+ * _putchar - Writes character c to stdout
+ * @c: The character to print
+ * Return: On success and -1 on error
  */
 int _putchar(char c)
 {
-	return (write(1 &c));
+	return (write(1, &c, 1));
 }
