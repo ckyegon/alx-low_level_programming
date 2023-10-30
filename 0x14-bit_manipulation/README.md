@@ -1,1 +1,4 @@
-This project is all about bit manipulation
+This project covers all about bit manipulation:
+-Binary to decimal
+-Decimal to binary
+-Hexadecimal to Decimal
